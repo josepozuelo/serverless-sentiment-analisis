@@ -1,3 +1,7 @@
 sanic==22.6.2
 transformers
 accelerate
+numpy
+scipy.special
+csv
+urllib.request
