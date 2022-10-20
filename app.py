@@ -11,8 +11,6 @@ import urllib.request
 # Load your model to GPU as a global variable here using the variable name "model"
 def init():
     global model
-    
-    device = 0 if torch.cuda.is_available() else -1
     # Tasks:
     # emoji, emotion, hate, irony, offensive, sentiment
     # stance/abortion, stance/atheism, stance/climate, stance/feminist, stance/hillary
