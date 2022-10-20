@@ -3,4 +3,3 @@ transformers
 accelerate
 numpy
 scipy
-urllib
